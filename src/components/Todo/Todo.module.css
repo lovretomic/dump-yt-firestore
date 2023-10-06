@@ -1,0 +1,27 @@
+.checkboxWrapper {
+  display: flex;
+  font-size: 20px;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 5px 10px;
+}
+
+.checkboxWrapper:hover {
+  background-color: #f2f2f2;
+}
+
+.checkboxWrapper > .checkboxContent {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.checkboxWrapper > .checkboxContent > input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
+
+.label.checked {
+  text-decoration: line-through;
+  color: #999;
+}
